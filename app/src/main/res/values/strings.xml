@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">Conversor</string>
+//-----------------------------------------------------
+    <string name="unidades0">Temperatura</string>
+    <string name="unidades1">Divisas</string>
+    <string name="unidades2">Datos</string>
+    <string name="unidades3">Longitud</string>
+    <string name="unidades4">Masa</string>
+    <string name="unidades5">Volumen</string>
+    <string name="unidades6">Astronómicas</string>
+    <string name="unidades7">Presion</string>
+    <string name="unidades8">Velocidad</string>
+    <string name="unidades9">Área</string>
+
+    <string-array name="Magnitudes">
+        <item>@string/unidades0</item>
+        <item>@string/unidades1</item>
+        <item>@string/unidades2</item>
+        <item>@string/unidades3</item>
+        <item>@string/unidades4</item>
+        <item>@string/unidades5</item>
+        <item>@string/unidades6</item>
+        <item>@string/unidades7</item>
+        <item>@string/unidades8</item>
+        <item>@string/unidades9</item>
+
+    </string-array>
+//-----------------------------------------------------
+    <string name="temperatura0">Celsius</string>
+    <string name="temperatura1">Fahrenheit</string>
+    <string name="temperatura2">Kelvin</string>
+    <string name="temperatura3">Rankine</string>
+
+    <string-array name="UTemperatura">
+        <item>@string/temperatura0</item>
+        <item>@string/temperatura1</item>
+        <item>@string/temperatura2</item>
+        <item>@string/temperatura3</item>
+    </string-array>
+//-----------------------------------------------------
+    <string name="divisa0">Euros</string>
+    <string name="divisa1">Dolares</string>
+    <string name="divisa2">Libras</string>
+    <string name="divisa3">Yenes</string>
+    <string name="divisa4">P. Mexicanos</string>
+    <string name="divisa5">Pesetas</string>
+    <string name="divisa6">Bitcoins</string>
+
+    <string-array name="UDivisas">
+        <item>@string/divisa0</item>
+        <item>@string/divisa1</item>
+        <item>@string/divisa2</item>
+        <item>@string/divisa3</item>
+        <item>@string/divisa4</item>
+        <item>@string/divisa5</item>
+        <item>@string/divisa6</item>
+    </string-array>
+//---------------------------------------------------
+    <string name="dato0">bits</string>
+    <string name="dato1">Bytes</string>
+    <string name="dato2">Kilobytes</string>
+    <string name="dato3">Megabytes</string>
+    <string name="dato4">Gigabytes</string>
+    <string name="dato5">Terabytes</string>
+    <string name="dato6">Petabytes</string>
+    <string name="dato7">Hexabytes</string>
+
+
+    <string-array name="UDatos">
+        <item>@string/dato0</item>
+        <item>@string/dato1</item>
+        <item>@string/dato2</item>
+        <item>@string/dato3</item>
+        <item>@string/dato4</item>
+        <item>@string/dato5</item>
+        <item>@string/dato6</item>
+        <item>@string/dato7</item>
+    </string-array>
+//---------------------------------------------------
+    <string name="long0">mm</string>
+    <string name="long1">cm</string>
+    <string name="long2">dm</string>
+    <string name="long3">m</string>
+    <string name="long4">Dam</string>
+    <string name="long5">Hm</string>
+    <string name="long6">Km</string>
+    <string name="long7">Millas</string>
+
+
+    <string-array name="ULong">
+        <item>@string/long0</item>
+        <item>@string/long1</item>
+        <item>@string/long2</item>
+        <item>@string/long3</item>
+        <item>@string/long4</item>
+        <item>@string/long5</item>
+        <item>@string/long6</item>
+        <item>@string/long7</item>
+    </string-array>
+//---------------------------------------------------
+    <string name="mas0">mg</string>
+    <string name="mas1">cg</string>
+    <string name="mas2">dg</string>
+    <string name="mas3">g</string>
+    <string name="mas4">Dag</string>
+    <string name="mas5">Hg</string>
+    <string name="mas6">Kg</string>
+    <string name="mas7">Mag</string>
+    <string name="mas8">Q</string>
+    <string name="mas9">T</string>
+    <string name="mas10">Libra</string>
+
+
+    <string-array name="UMas">
+        <item>@string/mas0</item>
+        <item>@string/mas1</item>
+        <item>@string/mas2</item>
+        <item>@string/mas3</item>
+        <item>@string/mas4</item>
+        <item>@string/mas5</item>
+        <item>@string/mas6</item>
+        <item>@string/mas7</item>
+        <item>@string/mas8</item>
+        <item>@string/mas9</item>
+        <item>@string/mas10</item>
+    </string-array>
+//---------------------------------------------------
+    <string name="vol0">ml</string>
+    <string name="vol1">cl</string>
+    <string name="vol2">dl</string>
+    <string name="vol3">l</string>
+    <string name="vol4">Dal</string>
+    <string name="vol5">Hl</string>
+    <string name="vol6">Kl</string>
+    <string name="vol7">Gal</string>
+
+
+    <string-array name="UVol">
+        <item>@string/vol0</item>
+        <item>@string/vol1</item>
+        <item>@string/vol2</item>
+        <item>@string/vol3</item>
+        <item>@string/vol4</item>
+        <item>@string/vol5</item>
+        <item>@string/vol6</item>
+        <item>@string/vol7</item>
+    </string-array>
+//---------------------------------------------------
+    <string name="UA0">U.Astronómica</string>
+    <string name="UA1">Año-luz</string>
+    <string name="UA2">Parsec</string>
+
+
+    <string-array name="UUA">
+        <item>@string/UA0</item>
+        <item>@string/UA1</item>
+        <item>@string/UA2</item>
+    </string-array>
+//---------------------------------------------------
+    <string name="Pres0">Pascal</string>
+    <string name="Pres1">mmHg</string>
+    <string name="Pres2">atm</string>
+
+
+    <string-array name="UPresion">
+        <item>@string/Pres0</item>
+        <item>@string/Pres1</item>
+        <item>@string/Pres2</item>
+    </string-array>
+//---------------------------------------------------
+    <string name="Vel0">kph</string>
+    <string name="Vel1">mph</string>
+    <string name="Vel2">m/s</string>
+    <string name="Vel3">Nudos</string>
+
+
+    <string-array name="UVelocidad">
+        <item>@string/Vel0</item>
+        <item>@string/Vel1</item>
+        <item>@string/Vel2</item>
+        <item>@string/Vel3</item>
+    </string-array>
+//---------------------------------------------------
+    <string name="Ar0">m2</string>
+    <string name="Ar1">km2</string>
+    <string name="Ar2">ha</string>
+    <string name="Ar3">acre</string>
+
+
+    <string-array name="UArea">
+        <item>@string/Ar0</item>
+        <item>@string/Ar1</item>
+        <item>@string/Ar2</item>
+        <item>@string/Ar3</item>
+    </string-array>
+
+</resources>
