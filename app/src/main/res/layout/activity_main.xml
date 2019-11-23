@@ -27,7 +27,7 @@
             android:layout_height="wrap_content">
 
             <Spinner
-                android:id="@+id/MenuSeleccion"
+                android:id="@+id/MenuSelection"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/Magnitudes"></Spinner>
@@ -39,7 +39,7 @@
 //Temperatura-----------------------------------------------------
 
         <LinearLayout
-            android:id="@+id/Temperatura"
+            android:id="@+id/Temperature"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -69,26 +69,26 @@
                 android:layout_height="wrap_content">
 
                 <EditText
-                    android:id="@+id/UTransformar_Temp"
+                    android:id="@+id/UTransform_Temp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="0"
                     android:inputType="numberDecimal" />
 
                 <Spinner
-                    android:id="@+id/TemperaturaSpinner1"
+                    android:id="@+id/TemperatureSpinner1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:entries="@array/UTemperatura"/>
 
                 <Spinner
-                    android:id="@+id/TemperaturaSpinner2"
+                    android:id="@+id/TemperatureSpinner2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:entries="@array/UTemperatura"></Spinner>
 
                 <TextView
-                    android:id="@+id/UTransformada_Temp"
+                    android:id="@+id/UTransformated_Temp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
             </LinearLayout>
@@ -97,7 +97,7 @@
 //Temperatura fin--------------------------------------------------------
 //Divisas----------------------------------------------------------------
     <LinearLayout
-        android:id="@+id/Divisas"
+        android:id="@+id/currency"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -126,25 +126,25 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/UTransformar_Div"
+                android:id="@+id/UTransform_Div"
                 android:layout_width="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_height="wrap_content"
                 android:hint="0"/>
 
             <Spinner
-                android:id="@+id/DivisasSpinner1"
+                android:id="@+id/CurrencySpinner1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/UDivisas"></Spinner>
 
             <Spinner
-                android:id="@+id/DivisasSpinner2"
+                android:id="@+id/CurrencySpinner2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/UDivisas"></Spinner>
             <TextView
-                android:id="@+id/UTransformada_Div"
+                android:id="@+id/UTransformated_Div"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -152,7 +152,7 @@
 //Divisas fin------------------------------------------------------------
 //Datos----------------------------------------------------------------
     <LinearLayout
-        android:id="@+id/Datos"
+        android:id="@+id/Data"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -181,25 +181,25 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/UTransformar_Dat"
+                android:id="@+id/UTransform_Dat"
                 android:layout_width="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_height="wrap_content"
                 android:hint="0"/>
 
             <Spinner
-                android:id="@+id/DatosSpinner1"
+                android:id="@+id/DataSpinner1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/UDatos"></Spinner>
 
             <Spinner
-                android:id="@+id/DatosSpinner2"
+                android:id="@+id/DataSpinner2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/UDatos"></Spinner>
             <TextView
-                android:id="@+id/UTransformada_Dat"
+                android:id="@+id/UTransformated_Dat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -207,7 +207,7 @@
 //Datos fin------------------------------------------------------------
 //Longitud----------------------------------------------------------------
     <LinearLayout
-        android:id="@+id/Longitud"
+        android:id="@+id/Longth"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -236,25 +236,25 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/UTransformar_Long"
+                android:id="@+id/UTransform_Leng"
                 android:layout_width="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_height="wrap_content"
                 android:hint="0"/>
 
             <Spinner
-                android:id="@+id/LongSpinner1"
+                android:id="@+id/LengthSpinner1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/ULong"></Spinner>
 
             <Spinner
-                android:id="@+id/LongSpinner2"
+                android:id="@+id/LengthSpinner2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/ULong"></Spinner>
             <TextView
-                android:id="@+id/UTransformada_Long"
+                android:id="@+id/UTransformated_Leng"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -262,7 +262,7 @@
 //Longitud fin------------------------------------------------------------
 //Masa----------------------------------------------------------------
     <LinearLayout
-        android:id="@+id/Masa"
+        android:id="@+id/Mass"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -291,25 +291,25 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/UTransformar_Mas"
+                android:id="@+id/UTransform_Mas"
                 android:layout_width="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_height="wrap_content"
                 android:hint="0"/>
 
             <Spinner
-                android:id="@+id/MasSpinner1"
+                android:id="@+id/MassSpinner1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/UMas"></Spinner>
 
             <Spinner
-                android:id="@+id/MasSpinner2"
+                android:id="@+id/MassSpinner2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/UMas"></Spinner>
             <TextView
-                android:id="@+id/UTransformada_Mas"
+                android:id="@+id/UTransformated_Mas"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -318,7 +318,7 @@
 //Volumen----------------------------------------------------------------
 
     <LinearLayout
-        android:id="@+id/Volumen"
+        android:id="@+id/Volume"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -347,25 +347,25 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/UTransformar_Vol"
+                android:id="@+id/UTransform_Vol"
                 android:layout_width="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_height="wrap_content"
                 android:hint="0"/>
 
             <Spinner
-                android:id="@+id/VolSpinner1"
+                android:id="@+id/VolumeSpinner1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/UVol"></Spinner>
 
             <Spinner
-                android:id="@+id/VolSpinner2"
+                android:id="@+id/VolumeSpinner2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/UVol"></Spinner>
             <TextView
-                android:id="@+id/UTransformada_Vol"
+                android:id="@+id/UTransformated_Vol"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -375,7 +375,7 @@
 //UAstronomicas----------------------------------------------------------------
 
     <LinearLayout
-        android:id="@+id/UAstronomicas"
+        android:id="@+id/AstronomicalU"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -404,25 +404,25 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/UTransformar_UA"
+                android:id="@+id/UTransform_AU"
                 android:layout_width="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_height="wrap_content"
                 android:hint="0"/>
 
             <Spinner
-                android:id="@+id/UASpinner1"
+                android:id="@+id/AUSpinner1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/UUA"></Spinner>
 
             <Spinner
-                android:id="@+id/UASpinner2"
+                android:id="@+id/AUSpinner2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/UUA"></Spinner>
             <TextView
-                android:id="@+id/UTransformada_UA"
+                android:id="@+id/UTransformated_AU"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -432,7 +432,7 @@
 //Presion----------------------------------------------------------------
 
     <LinearLayout
-        android:id="@+id/Presion"
+        android:id="@+id/Pressure"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -461,7 +461,7 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/UTransformar_Pres"
+                android:id="@+id/UTransform_Pres"
                 android:layout_width="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_height="wrap_content"
@@ -479,7 +479,7 @@
                 android:layout_height="wrap_content"
                 android:entries="@array/UPresion"></Spinner>
             <TextView
-                android:id="@+id/UTransformada_Pres"
+                android:id="@+id/UTransformated_Pres"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -489,7 +489,7 @@
 //Velocidad----------------------------------------------------------------
 
     <LinearLayout
-        android:id="@+id/Velocidad"
+        android:id="@+id/Speed"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -518,25 +518,25 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/UTransformar_Vel"
+                android:id="@+id/UTransform_Spe"
                 android:layout_width="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_height="wrap_content"
                 android:hint="0"/>
 
             <Spinner
-                android:id="@+id/VelSpinner1"
+                android:id="@+id/SpeSpinner1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/UVelocidad"></Spinner>
 
             <Spinner
-                android:id="@+id/VelSpinner2"
+                android:id="@+id/SpeSpinner2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/UVelocidad"></Spinner>
             <TextView
-                android:id="@+id/UTransformada_Vel"
+                android:id="@+id/UTransform_Spe"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -575,7 +575,7 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/UTransformar_Ar"
+                android:id="@+id/UTransform_Ar"
                 android:layout_width="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_height="wrap_content"
@@ -593,7 +593,7 @@
                 android:layout_height="wrap_content"
                 android:entries="@array/UArea"></Spinner>
             <TextView
-                android:id="@+id/UTransformada_Ar"
+                android:id="@+id/UTransformated_Ar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>

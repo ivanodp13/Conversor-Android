@@ -16,145 +16,145 @@ public class MainActivity extends AppCompatActivity {
 
 //Menu---------------------------
 
-    Spinner MenuSpinner;
-    int PosicionMenu;
+    Spinner SpinnerMenu;
+    int PositionMenu;
 
-    LinearLayout VTemperatura;
-    LinearLayout VDivisas;
-    LinearLayout VDatos;
-    LinearLayout VLongitud;
-    LinearLayout VMasa;
-    LinearLayout VVolumen;
-    LinearLayout VAstronomicas;
-    LinearLayout VPresion;
-    LinearLayout VVelocidad;
+    LinearLayout VTemperature;
+    LinearLayout VCurrency;
+    LinearLayout VData;
+    LinearLayout VLength;
+    LinearLayout VMass;
+    LinearLayout VVolume;
+    LinearLayout VAstronomical;
+    LinearLayout VPressure;
+    LinearLayout VSpeed;
     LinearLayout VArea;
 
 //Menu fin----------------------
 
-//Temperatura---------------------------
-    Spinner TemperaturaSpinner1;
-    EditText UTransformar_Temp;
-    Spinner TemperaturaSpinner2;
-    TextView UTransformada_Temp;
+//Temperature---------------------------
+    Spinner TemperatureSpinner1;
+    EditText UTransform_Temp;
+    Spinner TemperatureSpinner2;
+    TextView UTransformated_Temp;
 
-    int PosicionSpinner1;
-    int PosicionSpinner2;
-    String Unidad_Temp;
-//Temperatura fin----------------------
+    int SpinnerPosition1;
+    int SpinnerPosition2;
+    String Temp_Unit;
+//Temperature fin----------------------
 
-//Divisas---------------------------
-    Spinner DivisasSpinner3;
-    EditText UTransformar_Div;
-    Spinner DivisasSpinner4;
-    TextView UTransformada_Div;
+//Currency---------------------------
+    Spinner CurrencySpinner3;
+    EditText UTransform_Cur;
+    Spinner CurrencySpinner4;
+    TextView UTransformated_Cur;
 
-    int PosicionSpinner3;
-    int PosicionSpinner4;
-    String Unidad_Div;
-//Divisas fin----------------------
+    int SpinnerPosition3;
+    int SpinnerPosition4;
+    String Div_Unit;
+//Currency fin----------------------
 
-//Datos---------------------------
+//Data---------------------------
 
-    Spinner DatosSpinner5;
-    EditText UTransformar_Dat;
-    Spinner DatosSpinner6;
-    TextView UTransformada_Dat;
+    Spinner DataSpinner5;
+    EditText UTransform_Dat;
+    Spinner DataSpinner6;
+    TextView UTransformated_Dat;
 
-    int PosicionSpinner5;
-    int PosicionSpinner6;
-    String Unidad_Dat;
-//Datos fin----------------------
+    int SpinnerPosition5;
+    int SpinnerPosition6;
+    String Dat_Unit;
+//Data fin----------------------
 
-//Longitud---------------------------
-    Spinner LongitudSpinner7;
-    EditText UTransformar_Long;
-    Spinner LongitudSpinner8;
-    TextView UTransformada_Long;
+//Length---------------------------
+    Spinner LengthSpinner7;
+    EditText UTransform_Leng;
+    Spinner LengthSpinner8;
+    TextView UTransformated_Leng;
 
-    int PosicionSpinner7;
-    int PosicionSpinner8;
-    String Unidad_Long;
-//Longitud fin----------------------
+    int SpinnerPosition7;
+    int SpinnerPosition8;
+    String Leng_Unit;
+//Length fin----------------------
 
-//Masa---------------------------
+//Mass---------------------------
 
-    Spinner MasaSpinner9;
-    EditText UTransformar_Mas;
-    Spinner MasaSpinner10;
-    TextView UTransformada_Mas;
+    Spinner MassSpinner9;
+    EditText UTransform_Mas;
+    Spinner MassSpinner10;
+    TextView UTransformated_Mas;
 
-    int PosicionSpinner9;
-    int PosicionSpinner10;
-    String Unidad_Mas;
-//Masa fin----------------------
+    int SpinnerPosition9;
+    int SpinnerPosition10;
+    String Mas_Unit;
+//Mass fin----------------------
 
-//Volumen---------------------------
+//Volume---------------------------
 
-    Spinner VolumenSpinner11;
-    EditText UTransformar_Vol;
-    Spinner VolumenSpinner12;
-    TextView UTransformada_Vol;
+    Spinner VolumeSpinner11;
+    EditText UTransform_Vol;
+    Spinner VolumeSpinner12;
+    TextView UTransformated_Vol;
 
-    int PosicionSpinner11;
-    int PosicionSpinner12;
-    String Unidad_Vol;
-//Volumen fin----------------------
+    int SpinnerPosition11;
+    int SpinnerPosition12;
+    String Vol_Unit;
+//Volume fin----------------------
 
-//UAstronomicas---------------------------
+//AstronomicalU---------------------------
 
-    Spinner UAstSpinner13;
-    EditText UTransformar_UA;
-    Spinner UastSpinner14;
-    TextView UTransformada_UA;
+    Spinner AstUSpinner13;
+    EditText UTransform_AU;
+    Spinner AstUSpinner14;
+    TextView UTransformated_AU;
 
-    int PosicionSpinner13;
-    int PosicionSpinner14;
-    String Unidad_UA;
-//UAstronomicas fin----------------------
-//UAstronomicas---------------------------
+    int SpinnerPosition13;
+    int SpinnerPosition14;
+    String AU_Unit;
+//AstronomicalU fin----------------------
+//AstronomicalU---------------------------
 
     Spinner PresSpinner15;
-    EditText UTransformar_Pres;
+    EditText UTransform_Pres;
     Spinner PresSpinner16;
-    TextView UTransformada_Pres;
+    TextView UTransformated_Pres;
 
-    int PosicionSpinner15;
-    int PosicionSpinner16;
-    String Unidad_Pres;
-//UAstronomicas fin----------------------
-//Velocidad---------------------------
+    int SpinnerPosition15;
+    int SpinnerPosition16;
+    String Pres_Unit;
+//AstronomicalU fin----------------------
+//Speed---------------------------
 
-    Spinner VelSpinner17;
-    EditText UTransformar_Vel;
-    Spinner VelSpinner18;
-    TextView UTransformada_Vel;
+    Spinner SpeSpinner17;
+    EditText UTransform_Spe;
+    Spinner SpeSpinner18;
+    TextView UTransformated_Spe;
 
-    int PosicionSpinner17;
-    int PosicionSpinner18;
-    String Unidad_Vel;
-//Velocidad fin----------------------
+    int SpinnerPosition17;
+    int SpinnerPosition18;
+    String Spe_Unit;
+//Speed fin----------------------
 //Area---------------------------
 
     Spinner ArSpinner19;
-    EditText UTransformar_Ar;
+    EditText UTransform_Ar;
     Spinner ArSpinner20;
-    TextView UTransformada_Ar;
+    TextView UTransformated_Ar;
 
-    int PosicionSpinner19;
-    int PosicionSpinner20;
-    String Unidad_Ar;
+    int SpinnerPosition19;
+    int SpinnerPosition20;
+    String Ar_Unit;
 //Area fin----------------------
 
     String UTrans_Temp;
-    String UTrans_Div;
+    String UTrans_Cur;
     String UTrans_Dat;
-    String UTrans_Long;
+    String UTrans_Leng;
     String UTrans_Mas;
     String UTrans_Vol;
-    String UTrans_UA;
+    String UTrans_AU;
     String UTrans_Pres;
-    String UTrans_Vel;
+    String UTrans_Spe;
     String UTrans_Ar;
 
     @Override
@@ -162,123 +162,123 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MenuSpinner=findViewById(R.id.MenuSeleccion);
-        VTemperatura=findViewById(R.id.Temperatura);
-        VDivisas=findViewById(R.id.Divisas);
-        VDatos=findViewById(R.id.Datos);
-        VLongitud=findViewById(R.id.Longitud);
-        VMasa=findViewById(R.id.Masa);
-        VVolumen=findViewById(R.id.Volumen);
-        VAstronomicas=findViewById(R.id.UAstronomicas);
-        VPresion=findViewById(R.id.Presion);
-        VVelocidad=findViewById(R.id.Velocidad);
+        SpinnerMenu =findViewById(R.id.MenuSelection);
+        VTemperature =findViewById(R.id.Temperature);
+        VCurrency =findViewById(R.id.currency);
+        VData =findViewById(R.id.Data);
+        VLength =findViewById(R.id.Longth);
+        VMass =findViewById(R.id.Mass);
+        VVolume =findViewById(R.id.Volume);
+        VAstronomical =findViewById(R.id.AstronomicalU);
+        VPressure =findViewById(R.id.Pressure);
+        VSpeed =findViewById(R.id.Speed);
         VArea=findViewById(R.id.Area);
 
 
-        TemperaturaSpinner1=findViewById(R.id.TemperaturaSpinner1);
-        TemperaturaSpinner2=findViewById(R.id.TemperaturaSpinner2);
-        TemperaturaSpinner2.setSelection(1);
-        UTransformar_Temp=findViewById(R.id.UTransformar_Temp);
-        UTransformada_Temp=findViewById(R.id.UTransformada_Temp);
+        TemperatureSpinner1 =findViewById(R.id.TemperatureSpinner1);
+        TemperatureSpinner2 =findViewById(R.id.TemperatureSpinner2);
+        TemperatureSpinner2.setSelection(1);
+        UTransform_Temp =findViewById(R.id.UTransform_Temp);
+        UTransformated_Temp =findViewById(R.id.UTransformated_Temp);
 
 
-        DivisasSpinner3=findViewById(R.id.DivisasSpinner1);
-        DivisasSpinner4=findViewById(R.id.DivisasSpinner2);
-        DivisasSpinner4.setSelection(1);
-        UTransformar_Div=findViewById(R.id.UTransformar_Div);
-        UTransformada_Div=findViewById(R.id.UTransformada_Div);
+        CurrencySpinner3 =findViewById(R.id.CurrencySpinner1);
+        CurrencySpinner4 =findViewById(R.id.CurrencySpinner2);
+        CurrencySpinner4.setSelection(1);
+        UTransform_Cur =findViewById(R.id.UTransform_Div);
+        UTransformated_Cur =findViewById(R.id.UTransformated_Div);
 
 
-        DatosSpinner5=findViewById(R.id.DatosSpinner1);
-        DatosSpinner6=findViewById(R.id.DatosSpinner2);
-        DatosSpinner6.setSelection(1);
-        UTransformar_Dat=findViewById(R.id.UTransformar_Dat);
-        UTransformada_Dat=findViewById(R.id.UTransformada_Dat);
+        DataSpinner5 =findViewById(R.id.DataSpinner1);
+        DataSpinner6 =findViewById(R.id.DataSpinner2);
+        DataSpinner6.setSelection(1);
+        UTransform_Dat =findViewById(R.id.UTransform_Dat);
+        UTransformated_Dat =findViewById(R.id.UTransformated_Dat);
 
 
-        LongitudSpinner7=findViewById(R.id.LongSpinner1);
-        LongitudSpinner8=findViewById(R.id.LongSpinner2);
-        LongitudSpinner8.setSelection(1);
-        UTransformar_Long=findViewById(R.id.UTransformar_Long);
-        UTransformada_Long=findViewById(R.id.UTransformada_Long);
+        LengthSpinner7 =findViewById(R.id.LengthSpinner1);
+        LengthSpinner8 =findViewById(R.id.LengthSpinner2);
+        LengthSpinner8.setSelection(1);
+        UTransform_Leng =findViewById(R.id.UTransform_Leng);
+        UTransformated_Leng =findViewById(R.id.UTransformated_Leng);
 
-        MasaSpinner9=findViewById(R.id.MasSpinner1);
-        MasaSpinner10=findViewById(R.id.MasSpinner2);
-        MasaSpinner10.setSelection(1);
-        UTransformar_Mas=findViewById(R.id.UTransformar_Mas);
-        UTransformada_Mas=findViewById(R.id.UTransformada_Mas);
+        MassSpinner9 =findViewById(R.id.MassSpinner1);
+        MassSpinner10 =findViewById(R.id.MassSpinner2);
+        MassSpinner10.setSelection(1);
+        UTransform_Mas =findViewById(R.id.UTransform_Mas);
+        UTransformated_Mas =findViewById(R.id.UTransformated_Mas);
 
-        VolumenSpinner11=findViewById(R.id.VolSpinner1);
-        VolumenSpinner12=findViewById(R.id.VolSpinner2);
-        VolumenSpinner12.setSelection(1);
-        UTransformar_Vol=findViewById(R.id.UTransformar_Vol);
-        UTransformada_Vol=findViewById(R.id.UTransformada_Vol);
+        VolumeSpinner11 =findViewById(R.id.VolumeSpinner1);
+        VolumeSpinner12 =findViewById(R.id.VolumeSpinner2);
+        VolumeSpinner12.setSelection(1);
+        UTransform_Vol =findViewById(R.id.UTransform_Vol);
+        UTransformated_Vol =findViewById(R.id.UTransformated_Vol);
 
-        UAstSpinner13=findViewById(R.id.UASpinner1);
-        UastSpinner14=findViewById(R.id.UASpinner2);
-        UastSpinner14.setSelection(1);
-        UTransformar_UA=findViewById(R.id.UTransformar_UA);
-        UTransformada_UA=findViewById(R.id.UTransformada_UA);
+        AstUSpinner13 =findViewById(R.id.AUSpinner1);
+        AstUSpinner14 =findViewById(R.id.AUSpinner2);
+        AstUSpinner14.setSelection(1);
+        UTransform_AU =findViewById(R.id.UTransform_AU);
+        UTransformated_AU =findViewById(R.id.UTransformated_AU);
 
         PresSpinner15=findViewById(R.id.PresSpinner1);
         PresSpinner16=findViewById(R.id.PresSpinner2);
         PresSpinner16.setSelection(1);
-        UTransformar_Pres=findViewById(R.id.UTransformar_Pres);
-        UTransformada_Pres=findViewById(R.id.UTransformada_Pres);
+        UTransform_Pres =findViewById(R.id.UTransform_Pres);
+        UTransformated_Pres =findViewById(R.id.UTransformated_Pres);
 
-        VelSpinner17=findViewById(R.id.VelSpinner1);
-        VelSpinner18=findViewById(R.id.VelSpinner2);
-        VelSpinner18.setSelection(1);
-        UTransformar_Vel=findViewById(R.id.UTransformar_Vel);
-        UTransformada_Vel=findViewById(R.id.UTransformada_Vel);
+        SpeSpinner17 =findViewById(R.id.SpeSpinner1);
+        SpeSpinner18 =findViewById(R.id.SpeSpinner2);
+        SpeSpinner18.setSelection(1);
+        UTransform_Spe =findViewById(R.id.UTransform_Spe);
+        UTransformated_Spe =findViewById(R.id.UTransform_Spe);
 
         ArSpinner19=findViewById(R.id.ArSpinner1);
         ArSpinner20=findViewById(R.id.ArSpinner2);
         ArSpinner20.setSelection(1);
-        UTransformar_Ar=findViewById(R.id.UTransformar_Ar);
-        UTransformada_Ar=findViewById(R.id.UTransformada_Ar);
+        UTransform_Ar =findViewById(R.id.UTransform_Ar);
+        UTransformated_Ar =findViewById(R.id.UTransformated_Ar);
 
 
 
 //Menu---------------------------
 
-        MenuSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        SpinnerMenu.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                PosicionMenu = position;
-                Log.d("PosicionMenu" ,PosicionMenu+"");
+                PositionMenu = position;
+                Log.d("PositionMenu" , PositionMenu +"");
 
             //Menu para cambiar la visibilidad de los diferentes menus de cambio de unidad
-                switch (PosicionMenu){
-                    case 0://Temperatura
-                        Visibilidad_Temp();
+                switch (PositionMenu){
+                    case 0://Temperature
+                        Visibility_Temp();
                         break;
-                    case 1://Divisas
-                        Visibilidad_Div();
+                    case 1://Currency
+                        Visibility_Currency();
                         break;
-                    case 2://Datos
-                        Visibilidad_Dat();
+                    case 2://Data
+                        Visibility_Data();
                         break;
-                    case 3://Longitud
-                        Visibilidad_Long();
+                    case 3://Length
+                        Visibility_Length();
                         break;
-                    case 4://Masa
-                        Visibilidad_Mas();
+                    case 4://Mass
+                        Visibility_Mass();
                         break;
-                    case 5://Volumen
-                        Visibilidad_Vol();
+                    case 5://Volume
+                        Visibility_Volume();
                         break;
                     case 6://Astronómicas
-                        Visibilidad_UA();
+                        Visibility_AU();
                         break;
-                    case 7://Presion
-                        Visibilidad_Presion();
+                    case 7://Pressure
+                        Visibility_Pressure();
                         break;
-                    case 8://Velocidad
-                        Visibilidad_Velocidad();
+                    case 8://Speed
+                        Visibility_Speed();
                         break;
                     case 9://Area
-                        Visibilidad_Area();
+                        Visibility_Area();
                         break;
                 }
             }
@@ -291,22 +291,22 @@ public class MainActivity extends AppCompatActivity {
 
 //Listeners de los diferentes Spinners y EditText
 
-//Temperatura---------------------------
+//Temperature---------------------------
         //El listener llama al metodo alojado en la clase correspondiente
-        TemperaturaSpinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        TemperatureSpinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                PosicionSpinner1 = position;
-                //Temperatura---------------------------
-                UTrans_Temp=envio_Temp();
+                SpinnerPosition1 = position;
+                //Temperature---------------------------
+                UTrans_Temp= send_Temp();
                 if (UTrans_Temp.isEmpty()) {//Corrección error String vacio
                     return;
                 }
                 float UTransFloat_Temp = Float.parseFloat(UTrans_Temp);
 
-                float UTransfFloat_Temp = Temperatura.CambioTemperatura(PosicionSpinner1, PosicionSpinner2, UTransFloat_Temp);
-                recepcion_Temp(UTransfFloat_Temp);
-                //Temperatura fin----------------------
+                float UTransfFloat_Temp = Temperature.TemperatureConversion(SpinnerPosition1, SpinnerPosition2, UTransFloat_Temp);
+                reception_Temp(UTransfFloat_Temp);
+                //Temperature fin----------------------
             }
 
 
@@ -316,21 +316,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         //El listener llama al metodo alojado en la clase correspondiente
-        TemperaturaSpinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        TemperatureSpinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
-            //Temperatura---------------------------
-                PosicionSpinner2 = position;
-                UTrans_Temp=envio_Temp();
+            //Temperature---------------------------
+                SpinnerPosition2 = position;
+                UTrans_Temp= send_Temp();
                 if (UTrans_Temp.isEmpty()) {//Corrección error String vacio
                     return;
                 }
                 float UTransFloat_Temp = Float.parseFloat(UTrans_Temp);
 
-                float UTransfFloat_Temp = Temperatura.CambioTemperatura(PosicionSpinner1, PosicionSpinner2, UTransFloat_Temp);
-                recepcion_Temp(UTransfFloat_Temp);
-            //Temperatura fin----------------------
+                float UTransfFloat_Temp = Temperature.TemperatureConversion(SpinnerPosition1, SpinnerPosition2, UTransFloat_Temp);
+                reception_Temp(UTransfFloat_Temp);
+            //Temperature fin----------------------
             }
 
             @Override
@@ -339,7 +339,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        UTransformar_Temp.addTextChangedListener(new TextWatcher() {
+        UTransform_Temp.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -352,33 +352,33 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                Unidad_Temp = UTransformar_Temp.getText().toString();
+                Temp_Unit = UTransform_Temp.getText().toString();
 
-                UTrans_Temp=envio_Temp();
+                UTrans_Temp= send_Temp();
                 float UTransFloat_Temp = Float.parseFloat(UTrans_Temp);
 
-                float UTransfFloat_Temp = Temperatura.CambioTemperatura(PosicionSpinner1, PosicionSpinner2, UTransFloat_Temp);
-                recepcion_Temp(UTransfFloat_Temp);
+                float UTransfFloat_Temp = Temperature.TemperatureConversion(SpinnerPosition1, SpinnerPosition2, UTransFloat_Temp);
+                reception_Temp(UTransfFloat_Temp);
             }
         });
-//Temperatura fin----------------------
+//Temperature fin----------------------
 
-//Divisas----------------------
+//Currency----------------------
         //El listener llama al metodo alojado en la clase correspondiente
-        DivisasSpinner3.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        CurrencySpinner3.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                PosicionSpinner3 = position;
-                //Divisas---------------------------
-                UTrans_Div=envio_Div();
-                if (UTrans_Div.isEmpty()) {//Corrección error String vacio
+                SpinnerPosition3 = position;
+                //Currency---------------------------
+                UTrans_Cur = send_Cur();
+                if (UTrans_Cur.isEmpty()) {//Corrección error String vacio
                     return;
                 }
-                float UTransFloat_Div = Float.parseFloat(UTrans_Div);
+                float UTransFloat_Cur = Float.parseFloat(UTrans_Cur);
 
-                float UTransfFloat_Div = Divisas.CambioDivisa(PosicionSpinner3, PosicionSpinner4, UTransFloat_Div);
-                recepcion_Div(UTransfFloat_Div);
-                //Divisas fin----------------------
+                float UTransfFloat_Cur = Currency.CurrencyConversion(SpinnerPosition3, SpinnerPosition4, UTransFloat_Cur);
+                reception_Cur(UTransfFloat_Cur);
+                //Currency fin----------------------
             }
 
             @Override
@@ -388,20 +388,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //El listener llama al metodo alojado en la clase correspondiente
-        DivisasSpinner4.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        CurrencySpinner4.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-            //Divisas---------------------------
-                PosicionSpinner4 = position;
-                UTrans_Div=envio_Div();
-                if (UTrans_Div.isEmpty()) {//Corrección error String vacio
+            //Currency---------------------------
+                SpinnerPosition4 = position;
+                UTrans_Cur = send_Cur();
+                if (UTrans_Cur.isEmpty()) {//Corrección error String vacio
                     return;
                 }
-                float UTransFloat_Div = Float.parseFloat(UTrans_Div);
+                float UTransFloat_Cur = Float.parseFloat(UTrans_Cur);
 
-                float UTransfFloat_Div = Divisas.CambioDivisa(PosicionSpinner3, PosicionSpinner4, UTransFloat_Div);
-                recepcion_Div(UTransfFloat_Div);
-            //Divisas fin----------------------
+                float UTransfFloat_Cur = Currency.CurrencyConversion(SpinnerPosition3, SpinnerPosition4, UTransFloat_Cur);
+                reception_Cur(UTransfFloat_Cur);
+            //Currency fin----------------------
             }
 
             @Override
@@ -410,7 +410,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        UTransformar_Div.addTextChangedListener(new TextWatcher() {
+        UTransform_Cur.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -423,33 +423,33 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                Unidad_Div = UTransformar_Div.getText().toString();
+                Div_Unit = UTransform_Cur.getText().toString();
 
-                UTrans_Div=envio_Div();
-                float UTransFloat_Div = Float.parseFloat(UTrans_Div);
+                UTrans_Cur = send_Cur();
+                float UTransFloat_Cur = Float.parseFloat(UTrans_Cur);
 
-                float UTransfFloat_Div = Divisas.CambioDivisa(PosicionSpinner3, PosicionSpinner4, UTransFloat_Div);
-                recepcion_Div(UTransfFloat_Div);
+                float UTransfFloat_Cur = Currency.CurrencyConversion(SpinnerPosition3, SpinnerPosition4, UTransFloat_Cur);
+                reception_Cur(UTransfFloat_Cur);
             }
         });
-//Divisas fin----------------------
+//Currency fin----------------------
 
-//Datos----------------------
+//Data----------------------
         //El listener llama al metodo alojado en la clase correspondiente
-        DatosSpinner5.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        DataSpinner5.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                PosicionSpinner5 = position;
-                //Datos---------------------------
-                UTrans_Dat=envio_Dat();
+                SpinnerPosition5 = position;
+                //Data---------------------------
+                UTrans_Dat= send_Dat();
                 if (UTrans_Dat.isEmpty()) {//Corrección error String vacio
                     return;
                 }
                 float UTransFloat_Dat = Float.parseFloat(UTrans_Dat);
 
-                float UTransfFloat_Dat = Datos.CambioDatos(PosicionSpinner5, PosicionSpinner6, UTransFloat_Dat);
-                recepcion_Dat(UTransfFloat_Dat);
-                //Datos fin----------------------
+                float UTransfFloat_Dat = Data.DataConversion(SpinnerPosition5, SpinnerPosition6, UTransFloat_Dat);
+                reception_Dat(UTransfFloat_Dat);
+                //Data fin----------------------
             }
 
             @Override
@@ -459,20 +459,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //El listener llama al metodo alojado en la clase correspondiente
-        DatosSpinner6.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        DataSpinner6.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                //Datos---------------------------
-                PosicionSpinner6 = position;
-                UTrans_Dat=envio_Dat();
+                //Data---------------------------
+                SpinnerPosition6 = position;
+                UTrans_Dat= send_Dat();
                 if (UTrans_Dat.isEmpty()) {//Corrección error String vacio
                     return;
                 }
                 float UTransFloat_Dat = Float.parseFloat(UTrans_Dat);
 
-                float UTransfFloat_Dat = Datos.CambioDatos(PosicionSpinner5, PosicionSpinner6, UTransFloat_Dat);
-                recepcion_Dat(UTransfFloat_Dat);
-                //Datos fin----------------------
+                float UTransfFloat_Dat = Data.DataConversion(SpinnerPosition5, SpinnerPosition6, UTransFloat_Dat);
+                reception_Dat(UTransfFloat_Dat);
+                //Data fin----------------------
             }
 
             @Override
@@ -481,7 +481,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        UTransformar_Dat.addTextChangedListener(new TextWatcher() {
+        UTransform_Dat.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -494,34 +494,34 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                Unidad_Dat = UTransformar_Dat.getText().toString();
+                Dat_Unit = UTransform_Dat.getText().toString();
 
-                UTrans_Dat=envio_Dat();
+                UTrans_Dat= send_Dat();
                 float UTransFloat_Dat = Float.parseFloat(UTrans_Dat);
 
-                float UTransfFloat_Dat = Datos.CambioDatos(PosicionSpinner5, PosicionSpinner6, UTransFloat_Dat);
-                recepcion_Dat(UTransfFloat_Dat);
+                float UTransfFloat_Dat = Data.DataConversion(SpinnerPosition5, SpinnerPosition6, UTransFloat_Dat);
+                reception_Dat(UTransfFloat_Dat);
             }
         });
-//Datos fin----------------------
+//Data fin----------------------
 
-//Longitud----------------------
+//Length----------------------
 
         //El listener llama al metodo alojado en la clase correspondiente
-        LongitudSpinner7.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        LengthSpinner7.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                PosicionSpinner7 = position;
-                //Longitud---------------------------
-                UTrans_Long=envio_Long();
-                if (UTrans_Long.isEmpty()) {//Corrección error String vacio
+                SpinnerPosition7 = position;
+                //Length---------------------------
+                UTrans_Leng = send_Leng();
+                if (UTrans_Leng.isEmpty()) {//Corrección error String vacio
                     return;
                 }
-                float UTransFloat_Long = Float.parseFloat(UTrans_Long);
+                float UTransFloat_Leng = Float.parseFloat(UTrans_Leng);
 
-                float UTransfFloat_Long = Longitud.CambioLongitud(PosicionSpinner7, PosicionSpinner8, UTransFloat_Long);
-                recepcion_Long(UTransfFloat_Long);
-                //Longitud fin----------------------
+                float UTransfFloat_Leng = Length.LengthConversion(SpinnerPosition7, SpinnerPosition8, UTransFloat_Leng);
+                reception_Leng(UTransfFloat_Leng);
+                //Length fin----------------------
             }
 
             @Override
@@ -531,20 +531,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //El listener llama al metodo alojado en la clase correspondiente
-        LongitudSpinner8.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        LengthSpinner8.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                //Longitud---------------------------
-                PosicionSpinner8 = position;
-                UTrans_Long=envio_Long();
-                if (UTrans_Long.isEmpty()) {//Corrección error String vacio
+                //Length---------------------------
+                SpinnerPosition8 = position;
+                UTrans_Leng = send_Leng();
+                if (UTrans_Leng.isEmpty()) {//Corrección error String vacio
                     return;
                 }
-                float UTransFloat_Long = Float.parseFloat(UTrans_Long);
+                float UTransFloat_Leng = Float.parseFloat(UTrans_Leng);
 
-                float UTransfFloat_Long = Longitud.CambioLongitud(PosicionSpinner7, PosicionSpinner8, UTransFloat_Long);
-                recepcion_Long(UTransfFloat_Long);
-                //Longitud fin----------------------
+                float UTransfFloat_Leng = Length.LengthConversion(SpinnerPosition7, SpinnerPosition8, UTransFloat_Leng);
+                reception_Leng(UTransfFloat_Leng);
+                //Length fin----------------------
             }
 
             @Override
@@ -553,7 +553,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        UTransformar_Long.addTextChangedListener(new TextWatcher() {
+        UTransform_Leng.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -566,34 +566,34 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                Unidad_Long = UTransformar_Long.getText().toString();
+                Leng_Unit = UTransform_Leng.getText().toString();
 
-                UTrans_Long=envio_Long();
-                float UTransFloat_Long = Float.parseFloat(UTrans_Long);
+                UTrans_Leng = send_Leng();
+                float UTransFloat_Leng = Float.parseFloat(UTrans_Leng);
 
-                float UTransfFloat_Long = Longitud.CambioLongitud(PosicionSpinner7, PosicionSpinner8, UTransFloat_Long);
-                recepcion_Long(UTransfFloat_Long);
+                float UTransfFloat_Leng = Length.LengthConversion(SpinnerPosition7, SpinnerPosition8, UTransFloat_Leng);
+                reception_Leng(UTransfFloat_Leng);
             }
         });
-//Longitud fin----------------------
+//Length fin----------------------
 
-//Masa----------------------
+//Mass----------------------
 
         //El listener llama al metodo alojado en la clase correspondiente
-        MasaSpinner9.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        MassSpinner9.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                PosicionSpinner9 = position;
-                //Masa---------------------------
-                UTrans_Mas=envio_Mas();
+                SpinnerPosition9 = position;
+                //Mass---------------------------
+                UTrans_Mas= send_Mas();
                 if (UTrans_Mas.isEmpty()) {//Corrección error String vacio
                     return;
                 }
                 float UTransFloat_Mas = Float.parseFloat(UTrans_Mas);
 
-                float UTransfFloat_Mas = Masa.CambioMasa(PosicionSpinner9, PosicionSpinner10, UTransFloat_Mas);
-                recepcion_Mas(UTransfFloat_Mas);
-                //Masa fin----------------------
+                float UTransfFloat_Mas = Mass.MassConversion(SpinnerPosition9, SpinnerPosition10, UTransFloat_Mas);
+                reception_Mas(UTransfFloat_Mas);
+                //Mass fin----------------------
             }
 
             @Override
@@ -603,20 +603,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //El listener llama al metodo alojado en la clase correspondiente
-        MasaSpinner10.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        MassSpinner10.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                //Masa---------------------------
-                PosicionSpinner10 = position;
-                UTrans_Mas=envio_Mas();
+                //Mass---------------------------
+                SpinnerPosition10 = position;
+                UTrans_Mas= send_Mas();
                 if (UTrans_Mas.isEmpty()) {//Corrección error String vacio
                     return;
                 }
                 float UTransFloat_Mas = Float.parseFloat(UTrans_Mas);
 
-                float UTransfFloat_Mas = Masa.CambioMasa(PosicionSpinner9, PosicionSpinner10, UTransFloat_Mas);
-                recepcion_Mas(UTransfFloat_Mas);
-                //Masa fin----------------------
+                float UTransfFloat_Mas = Mass.MassConversion(SpinnerPosition9, SpinnerPosition10, UTransFloat_Mas);
+                reception_Mas(UTransfFloat_Mas);
+                //Mass fin----------------------
             }
 
             @Override
@@ -625,7 +625,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        UTransformar_Mas.addTextChangedListener(new TextWatcher() {
+        UTransform_Mas.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -638,34 +638,34 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                Unidad_Mas = UTransformar_Mas.getText().toString();
+                Mas_Unit = UTransform_Mas.getText().toString();
 
-                UTrans_Mas=envio_Mas();
+                UTrans_Mas= send_Mas();
                 float UTransFloat_Mas = Float.parseFloat(UTrans_Mas);
 
-                float UTransfFloat_Mas = Masa.CambioMasa(PosicionSpinner9, PosicionSpinner10, UTransFloat_Mas);
-                recepcion_Mas(UTransfFloat_Mas);
+                float UTransfFloat_Mas = Mass.MassConversion(SpinnerPosition9, SpinnerPosition10, UTransFloat_Mas);
+                reception_Mas(UTransfFloat_Mas);
             }
         });
-//Masa fin----------------------
+//Mass fin----------------------
 
-//Volumen----------------------
+//Volume----------------------
 
         //El listener llama al metodo alojado en la clase correspondiente
-        VolumenSpinner11.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        VolumeSpinner11.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                PosicionSpinner11 = position;
-                //Volumen---------------------------
-                UTrans_Vol=envio_Vol();
+                SpinnerPosition11 = position;
+                //Volume---------------------------
+                UTrans_Vol= send_Vol();
                 if (UTrans_Vol.isEmpty()) {//Corrección error String vacio
                     return;
                 }
                 float UTransFloat_Vol = Float.parseFloat(UTrans_Vol);
 
-                float UTransfFloat_Vol = Volumen.CambioVolumen(PosicionSpinner11, PosicionSpinner12, UTransFloat_Vol);
-                recepcion_Vol(UTransfFloat_Vol);
-                //Volumen fin----------------------
+                float UTransfFloat_Vol = Volume.VolumeConversion(SpinnerPosition11, SpinnerPosition12, UTransFloat_Vol);
+                reception_Vol(UTransfFloat_Vol);
+                //Volume fin----------------------
             }
 
             @Override
@@ -675,20 +675,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //El listener llama al metodo alojado en la clase correspondiente
-        VolumenSpinner12.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        VolumeSpinner12.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                //Volumen---------------------------
-                PosicionSpinner12 = position;
-                UTrans_Vol=envio_Vol();
+                //Volume---------------------------
+                SpinnerPosition12 = position;
+                UTrans_Vol= send_Vol();
                 if (UTrans_Vol.isEmpty()) {//Corrección error String vacio
                     return;
                 }
                 float UTransFloat_Vol = Float.parseFloat(UTrans_Vol);
 
-                float UTransfFloat_Vol = Volumen.CambioVolumen(PosicionSpinner11, PosicionSpinner12, UTransFloat_Vol);
-                recepcion_Vol(UTransfFloat_Vol);
-                //Volumen fin----------------------
+                float UTransfFloat_Vol = Volume.VolumeConversion(SpinnerPosition11, SpinnerPosition12, UTransFloat_Vol);
+                reception_Vol(UTransfFloat_Vol);
+                //Volume fin----------------------
             }
 
             @Override
@@ -697,7 +697,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        UTransformar_Vol.addTextChangedListener(new TextWatcher() {
+        UTransform_Vol.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -710,34 +710,34 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                Unidad_Vol = UTransformar_Vol.getText().toString();
+                Vol_Unit = UTransform_Vol.getText().toString();
 
-                UTrans_Vol=envio_Vol();
+                UTrans_Vol= send_Vol();
                 float UTransFloat_Vol = Float.parseFloat(UTrans_Vol);
 
-                float UTransfFloat_Vol = Volumen.CambioVolumen(PosicionSpinner11, PosicionSpinner12, UTransFloat_Vol);
-                recepcion_Vol(UTransfFloat_Vol);
+                float UTransfFloat_Vol = Volume.VolumeConversion(SpinnerPosition11, SpinnerPosition12, UTransFloat_Vol);
+                reception_Vol(UTransfFloat_Vol);
             }
         });
-//Volumen fin----------------------
+//Volume fin----------------------
 
-//UAstronomicas----------------------
+//AstronomicalU----------------------
 
         //El listener llama al metodo alojado en la clase correspondiente
-        UAstSpinner13.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        AstUSpinner13.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                PosicionSpinner13 = position;
-                //UAstronomicas---------------------------
-                UTrans_UA=envio_UA();
-                if (UTrans_UA.isEmpty()) {//Corrección error String vacio
+                SpinnerPosition13 = position;
+                //AstronomicalU---------------------------
+                UTrans_AU = send_AU();
+                if (UTrans_AU.isEmpty()) {//Corrección error String vacio
                     return;
                 }
-                float UTransFloat_UA = Float.parseFloat(UTrans_UA);
+                float UTransFloat_AU = Float.parseFloat(UTrans_AU);
 
-                float UTransfFloat_UA = UAstronomicas.CambioUAstronomicas(PosicionSpinner13, PosicionSpinner14, UTransFloat_UA);
-                recepcion_UA(UTransfFloat_UA);
-                //UAstronomicas fin----------------------
+                float UTransfFloat_AU = AstronomicalU.AstronomicalUConversion(SpinnerPosition13, SpinnerPosition14, UTransFloat_AU);
+                reception_AU(UTransfFloat_AU);
+                //AstronomicalU fin----------------------
             }
 
             @Override
@@ -747,20 +747,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //El listener llama al metodo alojado en la clase correspondiente
-        UastSpinner14.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        AstUSpinner14.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                //UAstronomicas---------------------------
-                PosicionSpinner14 = position;
-                UTrans_UA=envio_UA();
-                if (UTrans_UA.isEmpty()) {//Corrección error String vacio
+                //AstronomicalU---------------------------
+                SpinnerPosition14 = position;
+                UTrans_AU = send_AU();
+                if (UTrans_AU.isEmpty()) {//Corrección error String vacio
                     return;
                 }
-                float UTransFloat_UA = Float.parseFloat(UTrans_UA);
+                float UTransFloat_AU = Float.parseFloat(UTrans_AU);
 
-                float UTransfFloat_UA = UAstronomicas.CambioUAstronomicas(PosicionSpinner13, PosicionSpinner14, UTransFloat_UA);
-                recepcion_UA(UTransfFloat_UA);
-                //UAstronomicas fin----------------------
+                float UTransfFloat_AU = AstronomicalU.AstronomicalUConversion(SpinnerPosition13, SpinnerPosition14, UTransFloat_AU);
+                reception_AU(UTransfFloat_AU);
+                //AstronomicalU fin----------------------
             }
 
             @Override
@@ -769,7 +769,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        UTransformar_UA.addTextChangedListener(new TextWatcher() {
+        UTransform_AU.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -782,34 +782,34 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                Unidad_UA = UTransformar_UA.getText().toString();
+                AU_Unit = UTransform_AU.getText().toString();
 
-                UTrans_UA=envio_UA();
-                float UTransFloat_UA = Float.parseFloat(UTrans_UA);
+                UTrans_AU = send_AU();
+                float UTransFloat_AU = Float.parseFloat(UTrans_AU);
 
-                float UTransfFloat_UA = UAstronomicas.CambioUAstronomicas(PosicionSpinner13, PosicionSpinner14, UTransFloat_UA);
-                recepcion_UA(UTransfFloat_UA);
+                float UTransfFloat_AU = AstronomicalU.AstronomicalUConversion(SpinnerPosition13, SpinnerPosition14, UTransFloat_AU);
+                reception_AU(UTransfFloat_AU);
             }
         });
-//UAstronomicas fin----------------------
+//AstronomicalU fin----------------------
 
-//Presion----------------------
+//Pressure----------------------
 
         //El listener llama al metodo alojado en la clase correspondiente
         PresSpinner15.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                PosicionSpinner15 = position;
-                //Presion---------------------------
-                UTrans_Pres=envio_Pres();
+                SpinnerPosition15 = position;
+                //Pressure---------------------------
+                UTrans_Pres= send_Pres();
                 if (UTrans_Pres.isEmpty()) {//Corrección error String vacio
                     return;
                 }
                 float UTransFloat_Pres = Float.parseFloat(UTrans_Pres);
 
-                float UTransfFloat_Pres = Presion.CambioPresion(PosicionSpinner15, PosicionSpinner16, UTransFloat_Pres);
-                recepcion_Pres(UTransfFloat_Pres);
-                //Presion fin----------------------
+                float UTransfFloat_Pres = Pressure.PressureConversion(SpinnerPosition15, SpinnerPosition16, UTransFloat_Pres);
+                reception_Pres(UTransfFloat_Pres);
+                //Pressure fin----------------------
             }
 
             @Override
@@ -822,17 +822,17 @@ public class MainActivity extends AppCompatActivity {
         PresSpinner16.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                //Presion---------------------------
-                PosicionSpinner16 = position;
-                UTrans_Pres=envio_Pres();
+                //Pressure---------------------------
+                SpinnerPosition16 = position;
+                UTrans_Pres= send_Pres();
                 if (UTrans_Pres.isEmpty()) {//Corrección error String vacio
                     return;
                 }
                 float UTransFloat_Pres = Float.parseFloat(UTrans_Pres);
 
-                float UTransfFloat_Pres = Presion.CambioPresion(PosicionSpinner15, PosicionSpinner16, UTransFloat_Pres);
-                recepcion_Pres(UTransfFloat_Pres);
-                //Presion fin----------------------
+                float UTransfFloat_Pres = Pressure.PressureConversion(SpinnerPosition15, SpinnerPosition16, UTransFloat_Pres);
+                reception_Pres(UTransfFloat_Pres);
+                //Pressure fin----------------------
             }
 
             @Override
@@ -841,7 +841,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        UTransformar_Pres.addTextChangedListener(new TextWatcher() {
+        UTransform_Pres.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -854,34 +854,34 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                Unidad_Pres = UTransformar_Pres.getText().toString();
+                Pres_Unit = UTransform_Pres.getText().toString();
 
-                UTrans_Pres=envio_Pres();
+                UTrans_Pres= send_Pres();
                 float UTransFloat_Pres = Float.parseFloat(UTrans_Pres);
 
-                float UTransfFloat_Pres = Presion.CambioPresion(PosicionSpinner15, PosicionSpinner16, UTransFloat_Pres);
-                recepcion_Pres(UTransfFloat_Pres);
+                float UTransfFloat_Pres = Pressure.PressureConversion(SpinnerPosition15, SpinnerPosition16, UTransFloat_Pres);
+                reception_Pres(UTransfFloat_Pres);
             }
         });
-//Presion fin----------------------
+//Pressure fin----------------------
 
-//Velocidad----------------------
+//Speed----------------------
 
         //El listener llama al metodo alojado en la clase correspondiente
-        VelSpinner17.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        SpeSpinner17.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                PosicionSpinner17 = position;
-                //Velocidad---------------------------
-                UTrans_Vel=envio_Vel();
-                if (UTrans_Vel.isEmpty()) {//Corrección error String vacio
+                SpinnerPosition17 = position;
+                //Speed---------------------------
+                UTrans_Spe = send_Spe();
+                if (UTrans_Spe.isEmpty()) {//Corrección error String vacio
                     return;
                 }
-                float UTransFloat_Vel = Float.parseFloat(UTrans_Vel);
+                float UTransFloat_Spe = Float.parseFloat(UTrans_Spe);
 
-                float UTransfFloat_Vel = Velocidad.CambioVelocidad(PosicionSpinner17, PosicionSpinner18, UTransFloat_Vel);
-                recepcion_Vel(UTransfFloat_Vel);
-                //Velocidad fin----------------------
+                float UTransfFloat_Spe = Speed.SpeedConversion(SpinnerPosition17, SpinnerPosition18, UTransFloat_Spe);
+                reception_Spe(UTransfFloat_Spe);
+                //Speed fin----------------------
             }
 
             @Override
@@ -891,20 +891,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //El listener llama al metodo alojado en la clase correspondiente
-        VelSpinner18.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        SpeSpinner18.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                //Velocidad---------------------------
-                PosicionSpinner18 = position;
-                UTrans_Vel=envio_Vel();
-                if (UTrans_Vel.isEmpty()) {//Corrección error String vacio
+                //Speed---------------------------
+                SpinnerPosition18 = position;
+                UTrans_Spe = send_Spe();
+                if (UTrans_Spe.isEmpty()) {//Corrección error String vacio
                     return;
                 }
-                float UTransFloat_Vel = Float.parseFloat(UTrans_Vel);
+                float UTransFloat_Spe = Float.parseFloat(UTrans_Spe);
 
-                float UTransfFloat_Vel = Velocidad.CambioVelocidad(PosicionSpinner17, PosicionSpinner18, UTransFloat_Vel);
-                recepcion_Vel(UTransfFloat_Vel);
-                //Velocidad fin----------------------
+                float UTransfFloat_Spe = Speed.SpeedConversion(SpinnerPosition17, SpinnerPosition18, UTransFloat_Spe);
+                reception_Spe(UTransfFloat_Spe);
+                //Speed fin----------------------
             }
 
             @Override
@@ -913,7 +913,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        UTransformar_Vel.addTextChangedListener(new TextWatcher() {
+        UTransform_Spe.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -926,16 +926,16 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                Unidad_Vel = UTransformar_Vel.getText().toString();
+                Spe_Unit = UTransform_Spe.getText().toString();
 
-                UTrans_Vel=envio_Vel();
-                float UTransFloat_Vel = Float.parseFloat(UTrans_Vel);
+                UTrans_Spe = send_Spe();
+                float UTransFloat_Spe = Float.parseFloat(UTrans_Spe);
 
-                float UTransfFloat_Vel = Velocidad.CambioVelocidad(PosicionSpinner17, PosicionSpinner18, UTransFloat_Vel);
-                recepcion_Vel(UTransfFloat_Vel);
+                float UTransfFloat_Spe = Speed.SpeedConversion(SpinnerPosition17, SpinnerPosition18, UTransFloat_Spe);
+                reception_Spe(UTransfFloat_Spe);
             }
         });
-//Velocidad fin----------------------
+//Speed fin----------------------
 
 //Area----------------------
 
@@ -943,16 +943,16 @@ public class MainActivity extends AppCompatActivity {
         ArSpinner19.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                PosicionSpinner19 = position;
+                SpinnerPosition19 = position;
                 //Area---------------------------
-                UTrans_Ar=envio_Ar();
+                UTrans_Ar= send_Ar();
                 if (UTrans_Ar.isEmpty()) {//Corrección error String vacio
                     return;
                 }
                 float UTransFloat_Ar = Float.parseFloat(UTrans_Ar);
 
-                float UTransfFloat_Ar = Area.CambioArea(PosicionSpinner19, PosicionSpinner20, UTransFloat_Ar);
-                recepcion_Ar(UTransfFloat_Ar);
+                float UTransfFloat_Ar = Area.AreaConversion(SpinnerPosition19, SpinnerPosition20, UTransFloat_Ar);
+                reception_Ar(UTransfFloat_Ar);
                 //Area fin----------------------
             }
 
@@ -967,15 +967,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 //Area---------------------------
-                PosicionSpinner20 = position;
-                UTrans_Ar=envio_Ar();
+                SpinnerPosition20 = position;
+                UTrans_Ar= send_Ar();
                 if (UTrans_Ar.isEmpty()) {//Corrección error String vacio
                     return;
                 }
                 float UTransFloat_Ar = Float.parseFloat(UTrans_Ar);
 
-                float UTransfFloat_Ar = Area.CambioArea(PosicionSpinner19, PosicionSpinner20, UTransFloat_Ar);
-                recepcion_Ar(UTransfFloat_Ar);
+                float UTransfFloat_Ar = Area.AreaConversion(SpinnerPosition19, SpinnerPosition20, UTransFloat_Ar);
+                reception_Ar(UTransfFloat_Ar);
                 //Area fin----------------------
             }
 
@@ -985,7 +985,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        UTransformar_Ar.addTextChangedListener(new TextWatcher() {
+        UTransform_Ar.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -998,13 +998,13 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                Unidad_Ar = UTransformar_Ar.getText().toString();
+                Ar_Unit = UTransform_Ar.getText().toString();
 
-                UTrans_Ar=envio_Ar();
+                UTrans_Ar= send_Ar();
                 float UTransFloat_Ar = Float.parseFloat(UTrans_Ar);
 
-                float UTransfFloat_Ar = Area.CambioArea(PosicionSpinner19, PosicionSpinner20, UTransFloat_Ar);
-                recepcion_Ar(UTransfFloat_Ar);
+                float UTransfFloat_Ar = Area.AreaConversion(SpinnerPosition19, SpinnerPosition20, UTransFloat_Ar);
+                reception_Ar(UTransfFloat_Ar);
             }
         });
 //Area fin----------------------
@@ -1018,160 +1018,160 @@ public class MainActivity extends AppCompatActivity {
      * Obtiene el String introducido como el número para ser transformado
      * @return String con el numero a transformar
      */
-    public String envio_Temp (){
-        String UTrans = UTransformar_Temp.getText().toString(); //Unidad a Transformar
+    public String send_Temp(){
+        String UTrans = UTransform_Temp.getText().toString(); //Unidad a Transformar
         return UTrans;
     }
     /**
      * Obtiene el String con la solución final e introduce el texto en el TextView
      */
-    public void recepcion_Temp (float UTransfFloat) {
-        String SolFinTemp = Float.toString(UTransfFloat);
-        UTransformada_Temp.setText(SolFinTemp);
+    public void reception_Temp(float UTransfFloat) {
+        String FinSolTemp = Float.toString(UTransfFloat);
+        UTransformated_Temp.setText(FinSolTemp);
     }
 
     /**
      * Obtiene el String introducido como el número para ser transformado
      * @return String con el numero a transformar
      */
-    public String envio_Div (){
-        String UTrans = UTransformar_Div.getText().toString(); //Unidad a Transformar
+    public String send_Cur(){
+        String UTrans = UTransform_Cur.getText().toString(); //Unidad a Transformar
         return UTrans;
     }
     /**
      * Obtiene el String con la solución final e introduce el texto en el TextView
      */
-    public void recepcion_Div (float UTransfFloat){
-        String SolFinDiv = Float.toString(UTransfFloat);
-        UTransformada_Div.setText(SolFinDiv);
+    public void reception_Cur(float UTransfFloat){
+        String FinSolCur = Float.toString(UTransfFloat);
+        UTransformated_Cur.setText(FinSolCur);
     }
 
     /**
      * Obtiene el String introducido como el número para ser transformado
      * @return String con el numero a transformar
      */
-    public String envio_Dat (){
-        String UTrans = UTransformar_Dat.getText().toString(); //Unidad a Transformar
+    public String send_Dat(){
+        String UTrans = UTransform_Dat.getText().toString(); //Unidad a Transformar
         return UTrans;
     }
     /**
      * Obtiene el String con la solución final e introduce el texto en el TextView
      */
-    public void recepcion_Dat (float UTransfFloat){
-        String SolFinDat = Float.toString(UTransfFloat);
-        UTransformada_Dat.setText(SolFinDat);
+    public void reception_Dat(float UTransfFloat){
+        String FinSolDat = Float.toString(UTransfFloat);
+        UTransformated_Dat.setText(FinSolDat);
     }
 
     /**
      * Obtiene el String introducido como el número para ser transformado
      * @return String con el numero a transformar
      */
-    public String envio_Long (){
-        String UTrans = UTransformar_Long.getText().toString(); //Unidad a Transformar
+    public String send_Leng(){
+        String UTrans = UTransform_Leng.getText().toString(); //Unidad a Transformar
         return UTrans;
     }
     /**
      * Obtiene el String con la solución final e introduce el texto en el TextView
      */
-    public void recepcion_Long (float UTransfFloat){
-        String SolFinLong = Float.toString(UTransfFloat);
-        UTransformada_Long.setText(SolFinLong);
+    public void reception_Leng(float UTransfFloat){
+        String FinSolLeng = Float.toString(UTransfFloat);
+        UTransformated_Leng.setText(FinSolLeng);
     }
 
     /**
      * Obtiene el String introducido como el número para ser transformado
      * @return String con el numero a transformar
      */
-    public String envio_Mas (){
-        String UTrans = UTransformar_Mas.getText().toString(); //Unidad a Transformar
+    public String send_Mas(){
+        String UTrans = UTransform_Mas.getText().toString(); //Unidad a Transformar
         return UTrans;
     }
     /**
      * Obtiene el String con la solución final e introduce el texto en el TextView
      */
-    public void recepcion_Mas (float UTransfFloat){
-        String SolFinMas = Float.toString(UTransfFloat);
-        UTransformada_Mas.setText(SolFinMas);
+    public void reception_Mas(float UTransfFloat){
+        String FinSolMas = Float.toString(UTransfFloat);
+        UTransformated_Mas.setText(FinSolMas);
     }
 
     /**
      * Obtiene el String introducido como el número para ser transformado
      * @return String con el numero a transformar
      */
-    public String envio_Vol (){
-        String UTrans = UTransformar_Vol.getText().toString(); //Unidad a Transformar
+    public String send_Vol(){
+        String UTrans = UTransform_Vol.getText().toString(); //Unidad a Transformar
         return UTrans;
     }
     /**
      * Obtiene el String con la solución final e introduce el texto en el TextView
      */
-    public void recepcion_Vol (float UTransfFloat){
-        String SolFinVol = Float.toString(UTransfFloat);
-        UTransformada_Vol.setText(SolFinVol);
+    public void reception_Vol(float UTransfFloat){
+        String FinSolVol = Float.toString(UTransfFloat);
+        UTransformated_Vol.setText(FinSolVol);
     }
 
     /**
      * Obtiene el String introducido como el número para ser transformado
      * @return String con el numero a transformar
      */
-    public String envio_UA (){
-        String UTrans = UTransformar_UA.getText().toString(); //Unidad a Transformar
+    public String send_AU(){
+        String UTrans = UTransform_AU.getText().toString(); //Unidad a Transformar
         return UTrans;
     }
     /**
      * Obtiene el String con la solución final e introduce el texto en el TextView
      */
-    public void recepcion_UA (float UTransfFloat){
-        String SolFinUA = Float.toString(UTransfFloat);
-        UTransformada_UA.setText(SolFinUA);
+    public void reception_AU(float UTransfFloat){
+        String FinSolAU = Float.toString(UTransfFloat);
+        UTransformated_AU.setText(FinSolAU);
     }
 
     /**
      * Obtiene el String introducido como el número para ser transformado
      * @return String con el numero a transformar
      */
-    public String envio_Pres (){
-        String UTrans = UTransformar_Pres.getText().toString(); //Unidad a Transformar
+    public String send_Pres(){
+        String UTrans = UTransform_Pres.getText().toString(); //Unidad a Transformar
         return UTrans;
     }
     /**
      * Obtiene el String con la solución final e introduce el texto en el TextView
      */
-    public void recepcion_Pres (float UTransfFloat){
-        String SolFinPres = Float.toString(UTransfFloat);
-        UTransformada_Pres.setText(SolFinPres);
+    public void reception_Pres(float UTransfFloat){
+        String FinSolPres = Float.toString(UTransfFloat);
+        UTransformated_Pres.setText(FinSolPres);
     }
 
     /**
      * Obtiene el String introducido como el número para ser transformado
      * @return String con el numero a transformar
      */
-    public String envio_Vel (){
-        String UTrans = UTransformar_Vel.getText().toString(); //Unidad a Transformar
+    public String send_Spe(){
+        String UTrans = UTransform_Spe.getText().toString(); //Unidad a Transformar
         return UTrans;
     }
     /**
      * Obtiene el String con la solución final e introduce el texto en el TextView
      */
-    public void recepcion_Vel (float UTransfFloat){
-        String SolFinVel = Float.toString(UTransfFloat);
-        UTransformada_Vel.setText(SolFinVel);
+    public void reception_Spe(float UTransfFloat){
+        String FinSolVel = Float.toString(UTransfFloat);
+        UTransformated_Spe.setText(FinSolVel);
     }
 
     /**
      * Obtiene el String introducido como el número para ser transformado
      * @return String con el numero a transformar
      */
-    public String envio_Ar (){
-        String UTrans = UTransformar_Ar.getText().toString(); //Unidad a Transformar
+    public String send_Ar(){
+        String UTrans = UTransform_Ar.getText().toString(); //Unidad a Transformar
         return UTrans;
     }
     /**
      * Obtiene el String con la solución final e introduce el texto en el TextView
      */
-    public void recepcion_Ar (float UTransfFloat){
-        String SolFinAr = Float.toString(UTransfFloat);
-        UTransformada_Ar.setText(SolFinAr);
+    public void reception_Ar(float UTransfFloat){
+        String FinSolAr = Float.toString(UTransfFloat);
+        UTransformated_Ar.setText(FinSolAr);
     }
 
 
@@ -1180,160 +1180,160 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Establece como visible la unidad seleccionada
      */
-    public void Visibilidad_Temp (){
-        VDivisas.setVisibility(View.GONE);
-        VDatos.setVisibility(View.GONE);
-        VLongitud.setVisibility(View.GONE);
-        VMasa.setVisibility(View.GONE);
-        VVolumen.setVisibility(View.GONE);
-        VAstronomicas.setVisibility(View.GONE);
-        VPresion.setVisibility(View.GONE);
+    public void Visibility_Temp(){
+        VCurrency.setVisibility(View.GONE);
+        VData.setVisibility(View.GONE);
+        VLength.setVisibility(View.GONE);
+        VMass.setVisibility(View.GONE);
+        VVolume.setVisibility(View.GONE);
+        VAstronomical.setVisibility(View.GONE);
+        VPressure.setVisibility(View.GONE);
         VArea.setVisibility(View.GONE);
-        VVelocidad.setVisibility(View.GONE);
-        VTemperatura.setVisibility(View.VISIBLE);
+        VSpeed.setVisibility(View.GONE);
+        VTemperature.setVisibility(View.VISIBLE);
     }
 
     /**
      * Establece como visible la unidad seleccionada
      */
-    public void Visibilidad_Div (){
-        VTemperatura.setVisibility(View.GONE);
-        VDatos.setVisibility(View.GONE);
-        VLongitud.setVisibility(View.GONE);
-        VMasa.setVisibility(View.GONE);
-        VVolumen.setVisibility(View.GONE);
-        VAstronomicas.setVisibility(View.GONE);
-        VPresion.setVisibility(View.GONE);
+    public void Visibility_Currency(){
+        VTemperature.setVisibility(View.GONE);
+        VData.setVisibility(View.GONE);
+        VLength.setVisibility(View.GONE);
+        VMass.setVisibility(View.GONE);
+        VVolume.setVisibility(View.GONE);
+        VAstronomical.setVisibility(View.GONE);
+        VPressure.setVisibility(View.GONE);
         VArea.setVisibility(View.GONE);
-        VVelocidad.setVisibility(View.GONE);
-        VDivisas.setVisibility(View.VISIBLE);
+        VSpeed.setVisibility(View.GONE);
+        VCurrency.setVisibility(View.VISIBLE);
     }
 
     /**
      * Establece como visible la unidad seleccionada
      */
-    public void Visibilidad_Dat (){
-        VDivisas.setVisibility(View.GONE);
-        VTemperatura.setVisibility(View.GONE);
-        VLongitud.setVisibility(View.GONE);
-        VMasa.setVisibility(View.GONE);
-        VVolumen.setVisibility(View.GONE);
-        VAstronomicas.setVisibility(View.GONE);
-        VPresion.setVisibility(View.GONE);
+    public void Visibility_Data(){
+        VCurrency.setVisibility(View.GONE);
+        VTemperature.setVisibility(View.GONE);
+        VLength.setVisibility(View.GONE);
+        VMass.setVisibility(View.GONE);
+        VVolume.setVisibility(View.GONE);
+        VAstronomical.setVisibility(View.GONE);
+        VPressure.setVisibility(View.GONE);
         VArea.setVisibility(View.GONE);
-        VVelocidad.setVisibility(View.GONE);
-        VDatos.setVisibility(View.VISIBLE);
+        VSpeed.setVisibility(View.GONE);
+        VData.setVisibility(View.VISIBLE);
     }
 
     /**
      * Establece como visible la unidad seleccionada
      */
-    public void Visibilidad_Long (){
-        VDivisas.setVisibility(View.GONE);
-        VDatos.setVisibility(View.GONE);
-        VTemperatura.setVisibility(View.GONE);
-        VMasa.setVisibility(View.GONE);
-        VVolumen.setVisibility(View.GONE);
-        VAstronomicas.setVisibility(View.GONE);
-        VPresion.setVisibility(View.GONE);
+    public void Visibility_Length(){
+        VCurrency.setVisibility(View.GONE);
+        VData.setVisibility(View.GONE);
+        VTemperature.setVisibility(View.GONE);
+        VMass.setVisibility(View.GONE);
+        VVolume.setVisibility(View.GONE);
+        VAstronomical.setVisibility(View.GONE);
+        VPressure.setVisibility(View.GONE);
         VArea.setVisibility(View.GONE);
-        VVelocidad.setVisibility(View.GONE);
-        VLongitud.setVisibility(View.VISIBLE);
+        VSpeed.setVisibility(View.GONE);
+        VLength.setVisibility(View.VISIBLE);
     }
 
     /**
      * Establece como visible la unidad seleccionada
      */
-    public void Visibilidad_Mas (){
-        VDivisas.setVisibility(View.GONE);
-        VDatos.setVisibility(View.GONE);
-        VLongitud.setVisibility(View.GONE);
-        VTemperatura.setVisibility(View.GONE);
-        VVolumen.setVisibility(View.GONE);
-        VAstronomicas.setVisibility(View.GONE);
-        VPresion.setVisibility(View.GONE);
+    public void Visibility_Mass(){
+        VCurrency.setVisibility(View.GONE);
+        VData.setVisibility(View.GONE);
+        VLength.setVisibility(View.GONE);
+        VTemperature.setVisibility(View.GONE);
+        VVolume.setVisibility(View.GONE);
+        VAstronomical.setVisibility(View.GONE);
+        VPressure.setVisibility(View.GONE);
         VArea.setVisibility(View.GONE);
-        VVelocidad.setVisibility(View.GONE);
-        VMasa.setVisibility(View.VISIBLE);
+        VSpeed.setVisibility(View.GONE);
+        VMass.setVisibility(View.VISIBLE);
     }
 
     /**
      * Establece como visible la unidad seleccionada
      */
-    public void Visibilidad_Vol (){
-        VDivisas.setVisibility(View.GONE);
-        VDatos.setVisibility(View.GONE);
-        VLongitud.setVisibility(View.GONE);
-        VMasa.setVisibility(View.GONE);
-        VTemperatura.setVisibility(View.GONE);
-        VAstronomicas.setVisibility(View.GONE);
-        VPresion.setVisibility(View.GONE);
+    public void Visibility_Volume(){
+        VCurrency.setVisibility(View.GONE);
+        VData.setVisibility(View.GONE);
+        VLength.setVisibility(View.GONE);
+        VMass.setVisibility(View.GONE);
+        VTemperature.setVisibility(View.GONE);
+        VAstronomical.setVisibility(View.GONE);
+        VPressure.setVisibility(View.GONE);
         VArea.setVisibility(View.GONE);
-        VVelocidad.setVisibility(View.GONE);
-        VVolumen.setVisibility(View.VISIBLE);
+        VSpeed.setVisibility(View.GONE);
+        VVolume.setVisibility(View.VISIBLE);
     }
 
     /**
      * Establece como visible la unidad seleccionada
      */
-    public void Visibilidad_UA (){
-        VDivisas.setVisibility(View.GONE);
-        VDatos.setVisibility(View.GONE);
-        VLongitud.setVisibility(View.GONE);
-        VMasa.setVisibility(View.GONE);
-        VVolumen.setVisibility(View.GONE);
-        VTemperatura.setVisibility(View.GONE);
-        VPresion.setVisibility(View.GONE);
+    public void Visibility_AU(){
+        VCurrency.setVisibility(View.GONE);
+        VData.setVisibility(View.GONE);
+        VLength.setVisibility(View.GONE);
+        VMass.setVisibility(View.GONE);
+        VVolume.setVisibility(View.GONE);
+        VTemperature.setVisibility(View.GONE);
+        VPressure.setVisibility(View.GONE);
         VArea.setVisibility(View.GONE);
-        VVelocidad.setVisibility(View.GONE);
-        VAstronomicas.setVisibility(View.VISIBLE);
+        VSpeed.setVisibility(View.GONE);
+        VAstronomical.setVisibility(View.VISIBLE);
     }
 
     /**
      * Establece como visible la unidad seleccionada
      */
-    public void Visibilidad_Presion (){
-        VDivisas.setVisibility(View.GONE);
-        VDatos.setVisibility(View.GONE);
-        VLongitud.setVisibility(View.GONE);
-        VMasa.setVisibility(View.GONE);
-        VVolumen.setVisibility(View.GONE);
-        VAstronomicas.setVisibility(View.GONE);
-        VTemperatura.setVisibility(View.GONE);
+    public void Visibility_Pressure(){
+        VCurrency.setVisibility(View.GONE);
+        VData.setVisibility(View.GONE);
+        VLength.setVisibility(View.GONE);
+        VMass.setVisibility(View.GONE);
+        VVolume.setVisibility(View.GONE);
+        VAstronomical.setVisibility(View.GONE);
+        VTemperature.setVisibility(View.GONE);
         VArea.setVisibility(View.GONE);
-        VVelocidad.setVisibility(View.GONE);
-        VPresion.setVisibility(View.VISIBLE);
+        VSpeed.setVisibility(View.GONE);
+        VPressure.setVisibility(View.VISIBLE);
     }
 
     /**
      * Establece como visible la unidad seleccionada
      */
-    public void Visibilidad_Velocidad (){
-        VDivisas.setVisibility(View.GONE);
-        VDatos.setVisibility(View.GONE);
-        VLongitud.setVisibility(View.GONE);
-        VMasa.setVisibility(View.GONE);
-        VVolumen.setVisibility(View.GONE);
-        VAstronomicas.setVisibility(View.GONE);
-        VTemperatura.setVisibility(View.GONE);
-        VPresion.setVisibility(View.GONE);
+    public void Visibility_Speed(){
+        VCurrency.setVisibility(View.GONE);
+        VData.setVisibility(View.GONE);
+        VLength.setVisibility(View.GONE);
+        VMass.setVisibility(View.GONE);
+        VVolume.setVisibility(View.GONE);
+        VAstronomical.setVisibility(View.GONE);
+        VTemperature.setVisibility(View.GONE);
+        VPressure.setVisibility(View.GONE);
         VArea.setVisibility(View.GONE);
-        VVelocidad.setVisibility(View.VISIBLE);
+        VSpeed.setVisibility(View.VISIBLE);
     }
 
     /**
      * Establece como visible la unidad seleccionada
      */
-    public void Visibilidad_Area (){
-        VDivisas.setVisibility(View.GONE);
-        VDatos.setVisibility(View.GONE);
-        VLongitud.setVisibility(View.GONE);
-        VMasa.setVisibility(View.GONE);
-        VVolumen.setVisibility(View.GONE);
-        VAstronomicas.setVisibility(View.GONE);
-        VTemperatura.setVisibility(View.GONE);
-        VVelocidad.setVisibility(View.GONE);
-        VPresion.setVisibility(View.GONE);
+    public void Visibility_Area(){
+        VCurrency.setVisibility(View.GONE);
+        VData.setVisibility(View.GONE);
+        VLength.setVisibility(View.GONE);
+        VMass.setVisibility(View.GONE);
+        VVolume.setVisibility(View.GONE);
+        VAstronomical.setVisibility(View.GONE);
+        VTemperature.setVisibility(View.GONE);
+        VSpeed.setVisibility(View.GONE);
+        VPressure.setVisibility(View.GONE);
         VArea.setVisibility(View.VISIBLE);
     }
 }
